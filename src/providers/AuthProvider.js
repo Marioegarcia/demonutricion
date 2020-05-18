@@ -23,7 +23,7 @@ export default function AuthProvider(props) {
   return <AuthContext.Provider value={user}>{children}</AuthContext.Provider>;
 }
 
-function checkUserLogin(setUser) { 
+function checkUserLogin(setUser) {
   const accessToken = getAccessTokenApi();
 
   if (!accessToken) {
@@ -44,4 +44,4 @@ function checkUserLogin(setUser) {
       user: jwtDecode(accessToken)
     });
   }
-} 
+}

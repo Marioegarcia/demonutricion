@@ -20,8 +20,8 @@ export function getRefreshTokenApi() {
   }
 
   return willExpireToken(refreshToken) ? null : refreshToken;
-} 
- 
+}
+
 export function refreshAccessTokenApi(refreshToken) {
   const url = `${basePath}/${apiVersion}/refresh-access-token`;
   const bodyObj = {
@@ -56,7 +56,7 @@ export function refreshAccessTokenApi(refreshToken) {
 export function logout() {
   localStorage.removeItem(ACCESS_TOKEN);
   localStorage.removeItem(REFRESH_TOKEN);
-} 
+}
 
 function willExpireToken(token) {
   const seconds = 60;

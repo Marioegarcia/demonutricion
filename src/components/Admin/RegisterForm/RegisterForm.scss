@@ -19,7 +19,7 @@
 
     input {
       font-size: 0em + 20px / $defaultFontSize;
-      padding: 0px 0px 0px 40px !important;
+      padding: 1px 5px 1px 40px !important;
       &:focus {
         border-color: $primary-color;
         box-shadow: none;

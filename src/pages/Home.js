@@ -3,6 +3,7 @@ import React from "react";
 //import MainBanner from "../components/Web/MainBanner";
 import HomeCourses from "../components/Web/HomeCourses";
 import Banner from "../components/Web/Banner/Banner";
+import howDoes from "../components/Web/howDoes";
 // import HowMyCoursesWork from "../components/Web/HowMyCoursesWork";
 // import ReviewsCourses from "../components/Web/ReviewsCourses";
 
@@ -19,7 +20,9 @@ export default function Home() {
       </Helmet> */}
       {/* <MainBanner /> */}
       <Banner/>
+      <howDoes/>
       <HomeCourses />
+      
       {/* <HowMyCoursesWork />
       <ReviewsCourses /> */}
     </>

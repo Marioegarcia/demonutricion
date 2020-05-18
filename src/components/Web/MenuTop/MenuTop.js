@@ -1,8 +1,4 @@
 import React from "react";
-
-
-import { getMenuApi } from "../../../api/menu";
-import logoWhite from "../../../assets/img/png/logo.jpg";
 import RightMenu from "./AppBar/RightMenu";
 
 

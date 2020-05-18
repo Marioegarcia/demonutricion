@@ -13,8 +13,8 @@ function MenuSider(props) {
       <Menu
         theme="dark"
         mode="inline"
-        // defaultSelectedKeys={[location.pathname]}
-        defaultSelectedKeys={["/admin/users"]}
+        defaultSelectedKeys={[location.pathname]}
+        
       >
         {/* <Menu.Item key="/admin">
           <Link to="/admin">

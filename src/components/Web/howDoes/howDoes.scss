@@ -1,0 +1,25 @@
+@import "../../../scss/index.scss";
+
+.How {
+    margin-top: 50px;
+   
+  
+}
+
+
+.row-how {
+    
+   
+    width: auto;
+    &:Col {
+        padding: 15px;
+    }
+}
+
+.card-panel {
+    width: auto;
+    
+    overflow: hidden;
+    text-align: center;
+    margin: 15px;
+}
